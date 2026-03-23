@@ -57,7 +57,7 @@ jobs:
           email: test-hardwork-action2@xtexx.ml
 
       - name: Upload
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v7
         with:
           name: repo
           path: .git
